@@ -1,0 +1,26 @@
+*/    import java.util.Scanner; 
+public class Riamae {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);     
+        System.out.println("Performance Task");//ouput
+        System.out.println("Enter 1st activity:");//ouput
+        int x = input.nextInt();
+        System.out.println("Enter 2nd activity:");//output
+        int y = input.nextInt();
+        System.out.println("Enter 3rd activity:");//output
+        int z = input.nextInt();
+
+        int sum;
+        sum = x + y + z;
+        double per;
+        per = sum *0.60;
+        int ave;
+        ave = sum / 3;
+
+        System.out.println("Percentage is :" + per);//ouput
+        System.out.println("Average is :" + ave);           
+
+    }
+}        
+                
+                
